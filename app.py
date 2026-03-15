@@ -12,16 +12,15 @@ def estoque():
 
 @app.route("/add_item")
 def add_item():
-
-    return render_template("add_item")
+    return render_template("add_item.html")
 
 @app.route("/ret_item")
 def ret_item():
     return render_template("ret_item.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
 @app.route("/home")
 def home():
-    return render_template("Home.html")    
+    return render_template("Home.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)   

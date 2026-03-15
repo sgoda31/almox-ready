@@ -31,3 +31,17 @@ body {
     color: #135E9F;
     cursor: pointer;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rogerimg img {
+    width: 400px;        /* Mude esse número para aumentar ou diminuir */
+    height: auto;         /* Mantém a proporção para não achatar o rosto */
+    display: block;
+    margin: 0 auto;       /* Centraliza a imagem na tela */
+
+}
