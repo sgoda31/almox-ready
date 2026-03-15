@@ -1,3 +1,4 @@
+//Pagina de login
 function verificarLogin() {
 
     let usuarioCorreto = "admin";
@@ -14,7 +15,8 @@ function verificarLogin() {
     }
 }
 
-function adicionar() {
+//Pagina de adicionar
+function adicionar() { 
 
     let codigo = document.getElementById("codigo1").value;
     let descricao = document.getElementById("descricao1").value;
@@ -45,7 +47,7 @@ function adicionar() {
     document.getElementById("qtd1").value = "";
     document.getElementById("preco1").value = "";
 }
-
+//Pagina de remover
 function remover() {
 
     
@@ -72,3 +74,4 @@ function remover() {
 
     alert("Produto não encontrado");
 }
+//Pagina do Roger
