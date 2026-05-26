@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Estoque</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estoque.css') }}">
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </head>
 
@@ -12,20 +12,18 @@
 <div class="container">
 <div class="navbar">
     <a href="/home">
-        <button> HOME </button></a>
+        <button><b>?</b></button></a>
     <a href="/add_item">
-        <button> ADICIONAR ITENS </button></a>
+        <button><b>MOVIMENTAÇÃO</b></button></a>
     <a href="/estoque">
-        <button> ESTOQUE </button></a>
-    <a href="/ret_item">
-        <button> RETIRADA </button></a>
-    <a href="/"><button> FECHAR </button></a>
+        <button><b>ESTOQUE</b></button></a>
+    <a href="/"><button><b> FECHAR </b></button></a>
 </div>
     </div>
     <h1>    
         ALMOXARIFADO
     </h1>
-       <table id="tabela" border="1">
+       <table id="tabela">
         <tr>
             <th>Código</th>
             <th>Descrição</th>
