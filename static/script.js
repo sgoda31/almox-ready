@@ -1,7 +1,7 @@
 //Pagina de login
 function verificarLogin() {
 
-    let usuarioCorreto = "admin";
+    let usuarioCorreto = "user";
     let senhaCorreta = "1234";
 
     let usuarioDigitado = document.getElementById("usuario").value;
@@ -14,6 +14,23 @@ function verificarLogin() {
         alert("Usuário ou senha incorretos!");
     }
 }
+
+function verificarLogin20() {
+
+    let usuarioCorreto = "admin";
+    let senhaCorreta = "4321";
+
+    let usuarioDigitado = document.getElementById("usuario").value;
+    let senhaDigitada = document.getElementById("senha").value;
+
+    if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
+        alert("Login realizado com sucesso!");
+        window.location.href ="/estoque"
+    } else {
+        alert("Usuário ou senha incorretos!");
+    }
+}
+
 
 //Pagina de adicionar
 function adicionar() { 

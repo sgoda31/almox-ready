@@ -16,10 +16,8 @@ body {
 }
 
 .imagem {
-    height: 1100px;
-    max-width: 1450px;
-    align-items: left;
-    border-radius: 20px;
+    width: 73%;
+    height: 100%;
 }
 
 .barra-de-login {
@@ -70,4 +68,17 @@ input {
     font-weight: bold;
     line-height: 1.1;
     letter-spacing: 1px;
+}
+
+.admin {
+    margin-top: 10px;
+    padding: 14px 42px;
+    border: none;
+    border-radius: 20px;
+    background: #CA7B16;
+    color: #192A6B;
+    font-weight: bold;
+    cursor: pointer;
+    right: -15px;
+    position: relative;
 }

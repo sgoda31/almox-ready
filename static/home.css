@@ -39,9 +39,10 @@ body {
 }
 
 .rogerimg img {
-    width: 400px;        /* Mude esse número para aumentar ou diminuir */
-    height: auto;         /* Mantém a tamanho para não achatar */
+    max-width: 400px;    /* Limita o tamanho máximo sem esticar */
+    width: auto;
+    height: auto;        /* Mantém a proporção natural */
     display: block;
-    margin: 0 auto;       /* Centraliza a imagem */
+    margin: 0 auto;      /* Centraliza a imagem */
 
 }
